@@ -177,7 +177,6 @@ void ReserveBottomMemory()
     totalReservation / (1024 * 1024.0),
     (int)numVAllocs, (int)(numHeapAllocs));
   OutputDebugStringA(buffer);
-  std::cout << buffer << std::endl;
 }
 
 void FreeBottomMemory()
